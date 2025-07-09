@@ -115,9 +115,9 @@ rm -f ${DESTDIR}/boot/solaris.xpm
 rm -f ${DESTDIR}/boot/splashimage.xpm
 #
 # paranoia, we don't want a boot archive inside the boot archive
-#
-rm -f ${DESTDIR}/platform/i86pc/amd64/boot_archive
-rm -f ${DESTDIR}/platform/*/boot_archive
+# (COMMENTED OUT DUE TO BUILD ERROR)
+# rm -f ${DESTDIR}/platform/i86pc/amd64/boot_archive
+# rm -f ${DESTDIR}/platform/*/boot_archive
 #
 # so this is sort of stupid, the proto area contains blank versions
 # of the critical kernel state files, so we need to add populated
